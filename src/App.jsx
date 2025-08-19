@@ -15,6 +15,18 @@ function App() {
             <Route path="/game/:gameId" element={<GameDetail />} />
           </Routes>
         </main>
+        <div className="text-center text-black text-l font-semibold">
+        © 2025 Chess-Insights · Designed with ❤️ by{" "}
+        <a
+          href="https://www.linkedin.com/in/manas-tripathi-73876324b/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          Manas Tripathi
+        </a>
+      </div>
+
       </div>
     </Router>
   )
